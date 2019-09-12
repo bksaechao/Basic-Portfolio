@@ -20,6 +20,8 @@ h2 {
 }
 
 p {
+    max-width: 960px;
+    overflow: visible;
 }
 
 #raindrop {
