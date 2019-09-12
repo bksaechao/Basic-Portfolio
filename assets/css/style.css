@@ -1,5 +1,19 @@
 header {
-    text-align: left;
-    background-color: teal;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-color: #cccccc;
+    background-color: #c78383;
+    max-width: 960px;
+    text-align: center;
+    margin-left: 480px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline;
+}
+
+.nav {
+    display: inline;
+    text-align: right;
 }
