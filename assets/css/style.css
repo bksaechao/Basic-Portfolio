@@ -28,4 +28,5 @@ p {
     border: 1px groove #71c5c1;
     border-radius: 50%;
     float: left;
+    margin: 10px 30px 10px;
 }
