@@ -1,9 +1,7 @@
 header {
-    border-color: #cccccc;
+    border: solid #cccccc;
     background-color: #c78383;
     max-width: 960px;
-    text-align: center;
-    margin-left: 480px;
 }
 
 h1 {
@@ -13,7 +11,19 @@ h1 {
     display: inline;
 }
 
+h2 {
+}
+
 .nav {
     display: inline;
-    text-align: right;
+    float: right;
+}
+
+p {
+}
+
+#raindrop {
+    border: 1px groove #71c5c1;
+    border-radius: 50%;
+    float: left;
 }
