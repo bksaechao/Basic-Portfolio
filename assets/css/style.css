@@ -23,6 +23,7 @@ h2 {
 
 .nav {
     display: inline;
+    color: #777777;
 }
 
 p {
@@ -30,6 +31,7 @@ p {
     overflow: visible;
     margin-left: auto;
     margin-right: auto;
+    color: #777777;
 }
 
 #raindrop {
