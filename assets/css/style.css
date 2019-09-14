@@ -35,5 +35,7 @@ p {
     clip-path: circle();
     shape-outside: circle();
     float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
