@@ -114,3 +114,12 @@ textarea {
     width: 200px;
     left: 1px;
 }
+
+footer {
+    position: fixed;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+}
