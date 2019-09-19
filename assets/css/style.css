@@ -1,29 +1,43 @@
 body {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 header {
     border: solid #cccccc;
-    background-color: #c78383;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
-h1 {
+.Name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
+    padding: 20px;
     display: inline;
 }
 
-h2 {
+.About {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+    padding: none;
+}
+
+hr {
+    background-color: #cccccc;
+    border: none;
+    height: 2px;
 }
 
 nav {
-    color: #777777;
     float: right;
+    font-size: 22px
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
 }
 
 p {
@@ -37,5 +51,13 @@ p {
     float: left;
     margin-right: 50px;
     margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin:  0 auto;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    padding: 30px; 
 }
 
