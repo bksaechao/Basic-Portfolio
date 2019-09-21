@@ -10,11 +10,14 @@ header {
 }
 
 .container {
+    float: left;
+    width: 100%;
+    margin-left: 255px;
     max-width: 960px;
-    margin: 0 auto;
     background-color: #ffffff;
     border: solid #dddddd;
     padding: 30px;
+    overflow: auto;
 }
 
 .Name {
@@ -75,7 +78,7 @@ form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.name {
+.nombre {
     width: 100%;
 }
 
@@ -101,4 +104,86 @@ footer {
     width: 100%;
     bottom: 0;
     height: 40px;
+}
+
+.portfolio {
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    float: left;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 30px;
+}
+
+.wrapper2 {
+    float: left;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.scratch {
+    position: absolute;
+    padding: 15px 0px;
+    top: 140px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 99.1%;
+    margin-left: 1.5px;
+    text-align: center;
+}
+
+.food {
+    position: absolute;
+    padding: 15px 0px;
+    top: 382px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.space {
+    position: absolute;
+    padding: 15px 0px;
+    bottom: 15px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.music {
+    position: absolute;
+    padding: 15px 0px;
+    top: 140px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.art {
+    position: absolute;
+    padding: 15px 0px;
+    left: 0;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    cursor: pointer;
+    color: slateblue;
+    opacity: 0.8;
 }
