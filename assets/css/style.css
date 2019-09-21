@@ -190,6 +190,17 @@ a:hover {
     opacity: 0.8;
 }
 
+button:hover {
+    cursor: pointer;
+    color: slateblue;
+    opacity: 0.8;
+}
+
+button:active {
+    color: aliceblue;
+    background-color: darkorchid;
+}
+
 footer {
     position: fixed;
     bottom: 0;
